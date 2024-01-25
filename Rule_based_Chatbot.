@@ -1,0 +1,25 @@
+pairs = [
+    [
+        r"(.*)Robot",
+        ["hi Human, how can I help you "]
+    ],
+    [
+        r"(.*)question",
+        ["I am here for your help"]
+    ],
+
+    [
+        r"(.*)developed ",
+        ["Boomika created me using Python"]
+    ],
+    [
+        r"(.*)alive ",
+        ["I am Robot, I am just a computer program."]
+    ],
+    [
+        r"(.*)my name(.*)",
+        ["Hello %2, How are you today ?",]
+    ],
+    [
+        r"(.*)help(.*) ",
+        ["I can help you ",]
